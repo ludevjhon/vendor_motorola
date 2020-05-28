@@ -20,6 +20,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/bin/adsprpcd:$(TARGET_COPY_OUT_SYSTEM)/bin/adsprpcd \
+    vendor/motorola/msm8916-common/proprietary/bin/gpsone_daemon:$(TARGET_COPY_OUT_SYSTEM)/bin/gpsone_daemon \
     vendor/motorola/msm8916-common/proprietary/bin/qseecomd:$(TARGET_COPY_OUT_SYSTEM)/bin/qseecomd \
     vendor/motorola/msm8916-common/proprietary/bin/radish:$(TARGET_COPY_OUT_SYSTEM)/bin/radish \
     vendor/motorola/msm8916-common/proprietary/etc/firmware/a300_pfp.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/a300_pfp.fw \
@@ -37,6 +38,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/msm8916-common/proprietary/etc/firmware/venus.mbn:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mbn \
     vendor/motorola/msm8916-common/proprietary/etc/firmware/venus.mdt:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/venus.mdt \
     vendor/motorola/msm8916-common/proprietary/etc/flp.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/flp.conf \
+    vendor/motorola/msm8916-common/proprietary/etc/gps.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/gps.conf \
+    vendor/motorola/msm8916-common/proprietary/etc/izat.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/izat.conf \
+    vendor/motorola/msm8916-common/proprietary/etc/quipc.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/quipc.conf \
     vendor/motorola/msm8916-common/proprietary/etc/sap.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/sap.conf \
     vendor/motorola/msm8916-common/proprietary/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/qti-telephony-common.jar \
     vendor/motorola/msm8916-common/proprietary/lib/libOmxVdecHevc.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxVdecHevc.so \
